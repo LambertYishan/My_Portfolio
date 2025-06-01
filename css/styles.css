@@ -10995,3 +10995,37 @@ a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+
+#last-updated {
+    font-style: italic;
+}
+.file-links a {
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: color 0.2s;
+}
+
+.file-links a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Font Awesome icons */
+.fa-file-pdf { color: #d33; }
+.fa-file-excel { color: #1d6f42; }
+.fab.fa-python { color: #3776ab; }
+.fa-file-csv { color: #6c757d; }
