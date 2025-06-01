@@ -11029,3 +11029,10 @@ footer a:hover {
 .fa-file-excel { color: #1d6f42; }
 .fab.fa-python { color: #3776ab; }
 .fa-file-csv { color: #6c757d; }
+
+#google_translate_element {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}

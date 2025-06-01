@@ -14,6 +14,16 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+        <div id="google_translate_element"></div>
+        <script>
+            function
+            googleTranslateElementInit(){
+                new google.translate.TranslateElement(
+                    { pageLanguage: 'en', includedLanguages: 'zh-CN,en'}, 'google_translate_element');
+            }
+        </script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -87,6 +97,8 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Incoming Quantitative Analyst Intern</h3>
                             <div class="subheading mb-3">SDIC Securities Co., Ltd.</div>
+                            <img src="assets\img\sdic_logo.png" alt="SDIC Logo"
+                                style="width: 50px; height: 50px; margin-right: 15px; object-fit: contain;">
                             <p>Perform supporting research for model development and valuation.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">June 2025 - August 2025</span></div>
@@ -95,6 +107,8 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Graduate Research Assistant</h3>
                             <div class="subheading mb-3">Wake Forest School of Business</div>
+                            <img src="assets\img\wfu_bs.png" alt="WFUBS Logo"
+                                style="width: 50px; height: 50px; margin-right: 15px; object-fit: contain;">
                             <p>Research and propose new strategy in tax loss harvesting that helps retail investors achieve
                                 risk-free return in life savings.
                                 Apply stochastic calculus-based optimization, simulation, and benchmark-tracking to prove effectiveness
@@ -106,6 +120,8 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Graduate Consultant - Practicum Project</h3>
                             <div class="subheading mb-3">Mastercard</div>
+                            <img src="assets\img\Mastercard-logo.png" alt="Mastercard Logo"
+                                style="width: 50px; height: 50px; margin-right: 15px; object-fit: contain;">
                             <p>Augment and explore Mastercard internal quantitative and risk assessment metrics of Generative AI product
                                 with cutting-edge academic and industrial research findings. Proposed 20+ new quantitative metrics based on research
                                 in both model performance and user-interaction/experience domains. Report to head of Mastercard AI Governance.
@@ -128,6 +144,8 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Resident Advisor</h3>
                             <div class="subheading mb-3">Wake Forest University Residence Life and Housing</div>
+                            <img src="assets\img\wfu_rs_logo.jpg" alt="WFURS Logo"
+                                style="width: 50px; height: 50px; margin-right: 15px; object-fit: contain;">
                             <p>Provided leadership for 30+ students by organizing engaging programs (including a successful career center collaboration) and responding to emergencies, 
                                 ensuring a safe and supportive residential community.</p>
                         </div>
@@ -137,6 +155,8 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Online Marketing Intern</h3>
                             <div class="subheading mb-3">Dream Big Career</div>
+                            <img src="assets\img\dbc_logo.jpg" alt="Dream Big Career Logo"
+                                style="width: 50px; height: 50px; margin-right: 15px; object-fit: contain;">
                             <p>Planned biweekly career webinars and executed social media campaigns to attract potential clients, increasing student engagement with consulting opportunities. 
                                 Managed large group chats and virtual events to facilitate connections between students and career advisors, strengthening the organization’s outreach and community presence.</p>
                         </div>
@@ -187,45 +207,94 @@
             </section>
             <hr class="m-0" />
             <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Responsive communication & interpretable models
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Efficiency and target-driven
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Listenership and client-focus
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Curious mindset and learnability
-                        </li>
-                    </ul>
-                </div>
-            </section>
+<section class="resume-section" id="skills">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Skills</h2>
+        
+        <!-- Programming Languages -->
+        <div class="subheading mb-3">Programming Languages</div>
+        <ul class="list-inline dev-icons">
+            <!-- Python -->
+            <li class="list-inline-item" title="Python">
+                <i class="fab fa-python"></i>
+            </li>
+            <!-- Java -->
+            <li class="list-inline-item" title="Java">
+                <i class="fab fa-java"></i>
+            </li>
+            <!-- SQL -->
+            <li class="list-inline-item" title="SQL">
+                <i class="fas fa-database"></i>
+            </li>
+            <!-- C -->
+            <li class="list-inline-item" title="C">
+                <span style="font-family: monospace; font-weight: bold;">C</span>
+            </li>
+            <!-- C++ -->
+            <li class="list-inline-item" title="C++">
+                <span style="font-family: monospace; font-weight: bold;">C++</span>
+            </li>
+            <!-- Linux -->
+            <li class="list-inline-item" title="Linux">
+                <i class="fab fa-linux"></i>
+            </li>
+        </ul>
+
+        <!-- Data & BI Tools -->
+        <div class="subheading mb-3">Data Analytics & BI Tools</div>
+        <ul class="list-inline dev-icons">
+            <!-- Tableau -->
+            <li class="list-inline-item" title="Tableau">
+                <i class="fas fa-chart-bar"></i> <!-- General chart icon, or use SVG for Tableau logo -->
+            </li>
+            <!-- Power BI -->
+            <li class="list-inline-item" title="Power BI">
+                <i class="fas fa-chart-line"></i> <!-- Alternative: Use SVG for Power BI logo -->
+            </li>
+            <!-- Excel -->
+            <li class="list-inline-item" title="Excel">
+                <i class="fas fa-file-excel"></i> <!-- Font Awesome Excel icon -->
+            </li>
+            <!-- Pandas -->
+            <li class="list-inline-item" title="Pandas">
+                <span style="font-weight: bold;">🐼</span> <!-- Panda emoji for Pandas -->
+            </li>
+            <!-- NumPy -->
+            <li class="list-inline-item" title="NumPy">
+                <span style="font-weight: bold;">np</span> <!-- Short for NumPy -->
+            </li>
+            <!-- Matplotlib -->
+            <li class="list-inline-item" title="Matplotlib">
+                <i class="fas fa-chart-area"></i> <!-- Matplotlib is used for plotting -->
+            </li>
+            <!-- TensorFlow/Keras -->
+            <li class="list-inline-item" title="TensorFlow/Keras">
+                <span style="font-weight: bold;">TF</span> <!-- Short for TensorFlow -->
+            </li>
+        </ul>
+
+        <!-- Workflow (unchanged) -->
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+            <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Responsive communication & interpretable models
+            </li>
+            <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Efficiency and target-driven
+            </li>
+            <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Listenership and client-focus
+            </li>
+            <li>
+                <span class="fa-li"><i class="fas fa-check"></i></span>
+                Curious mindset and learnability
+            </li>
+        </ul>
+    </div>
+</section>
             <hr class="m-0" />
             <!-- Interests-->
             <section class="resume-section" id="interests">
@@ -238,6 +307,19 @@
                         journalist at Wake Forest University's Old Gold & Black. I am eager to start my own personal blogs to share my views about
                         quant, data, AI, and other interesting topics in life.
                     </p>
+                    <ul class="list-inline dev-icons">
+                    <!-- Tennis -->
+                    <li class="list-inline-item" title="Tennis">
+                    <img src="assets\img\tennis.png" alt="Tennis" style="width: 64px; height: 64px;">
+                    <!-- Badminton -->
+                    <li class="list-inline-item" title="Badminton">
+                    <i class="fas fa-feather-alt"></i> <!-- Feather icon (for shuttlecock) -->
+                    </li>
+                    <!-- Ping Pong -->
+                    <li class="list-inline-item" title="Ping Pong">
+                    <i class="fas fa-table-tennis"></i> <!-- Font Awesome's ping pong icon -->
+                </li>
+                </ul>
                 </div>
             </section>
             <hr class="m-0" />
