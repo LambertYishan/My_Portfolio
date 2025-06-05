@@ -1,3 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.csv filter=lfs diff=lfs merge=lfs -text
+assets/ClusterProject/Cleaned_Airbnb.csv filter=lfs diff=lfs merge=lfs -text
+assets/ClusterProject/airbnb_listings_austin-1.csv filter=lfs diff=lfs merge=lfs -text
+assets/StreamlitProject/EbayCleanedDataSample.csv filter=lfs diff=lfs merge=lfs -text
